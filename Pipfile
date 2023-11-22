@@ -1,0 +1,31 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "aliyun_mirrors"
+
+[packages]
+fastapi = "==0.103.2"
+pandas = "==2.0.3"
+mysql-connector-python = "==8.1.0"
+implicit = "==0.7.2"
+scipy = "==1.11.3"
+apscheduler = "==3.10.4"
+requests = "==2.31.0"
+playwright = "==1.39.0"
+python-dotenv = "==1.0.0"
+pydantic = "==1.10.9"
+sqlalchemy = "==2.0.22"
+pymysql = "==1.1.0"
+python-multipart = "==0.0.6"
+pillow = "==9.5.0"
+contextvars ="==2.4"
+pipfile = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+
+[dev-packages]
+httpx = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.5"

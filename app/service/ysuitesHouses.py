@@ -7,7 +7,7 @@ def run(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
     context = browser.new_context()
     page = context.new_page()
-    page.goto("file:///Users/libojian/Desktop/yshome.html", timeout=4000000)
+    page.goto("", timeout=4000000)
 
     page.get_by_placeholder("Agent Code").click()
     page.get_by_placeholder("Agent Code").fill("uhojes")
